@@ -7,13 +7,13 @@ table, td {
 }
 </style>
 </head>
-<body onload="tab()">
+<body onload="createt ()">
 
  
 
 <script>
  
-var info = [{firstname:"ankur",lastname:"rana",id:1,phoneno:7657845356,email:"ankurrana@gmail.com",designation:"ceo",dob:22-03-1897},
+var details = [{firstname:"ankur",lastname:"rana",id:1,phoneno:7657845356,email:"ankurrana@gmail.com",designation:"ceo",dob:22-03-1897},
     {firstname:"rahul",lastname:"sharma",id:2,phoneno:4647845356,email:"rahulsharma@gmail.com",designation:"trainee",dob:22-03-1945},
     {firstname:"ashish",lastname:"singh",id:3,phoneno:9378445356,email:"ashishsingh@gmail.com",designation:"tester",dob:22-03-1925},
     {firstname:"shubham",lastname:"chauhan",id:4,phoneno:7654835356,email:"shubhamchauhan@gmail.com",designation:"techlead",dob:22-03-1987},
@@ -26,13 +26,13 @@ var info = [{firstname:"ankur",lastname:"rana",id:1,phoneno:7657845356,email:"an
 var keys;
 var values;
 
-function tab(){
+function createt(){
 
-    keys = Object.keys(info[1])
+    keys = Object.keys(details[1])
     
     
-    values =info.map((element,index)=>{
-        return Object.values(info[index])
+    values =details.map((element,index)=>{
+        return Object.values(details[index])
     
     })
 
